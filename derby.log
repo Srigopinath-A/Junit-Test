@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue May 06 12:06:48 UTC 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0196-a57d-cfab-0000032689b0 
+on database directory memory:/home/parthiban/Downloads/Junit/9484a5fd-d206-4cfb-9f83-264a0f4a0666 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11524711 
+Loaded from file:/home/parthiban/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=21.0.7+6-LTS
+user.dir=/home/parthiban/Downloads/Junit
+os.name=Linux
+os.arch=amd64
+os.version=6.8.0-1029-gcp
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
