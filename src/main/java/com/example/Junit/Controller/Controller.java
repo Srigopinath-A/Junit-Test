@@ -30,8 +30,8 @@ public class Controller {
 		return movierepo.findAll();
 	}
 	
-	@GetMapping(value = "movieid")
-	public Movies getbyId(@PathVariable(value = "moviesid") Long movieid) {
+	@GetMapping(value = "{movieid}")
+	public Movies getbyId(@PathVariable(value = "movieid") Long movieid) {
 		return movierepo.findById(movieid).get();
 	}
 	
@@ -60,9 +60,9 @@ public class Controller {
 		return movierepo.save(currenterecord);
 	}
 	
-	@DeleteMapping(value ="moviesid")
-	public void delete(@PathVariable(value = "moviesid")Movies movie) {
-		movierepo.delete(movie);
+	@DeleteMapping(value ="{movieid}")
+	public void delete(@PathVariable(value = "movieid")Long movieid) {
+		movierepo.deleteById(movieid);
 	}
 	
 }
